@@ -1,0 +1,12 @@
+.discount {
+    color: #ffffff;
+    padding: .6em 1.05em;
+    background-color: #E62D2D;
+    border-radius: .714em;
+    position: absolute;
+    z-index: 1;
+    &_card {
+        top: 6%;
+        left: 14%;
+    }
+}

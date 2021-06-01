@@ -1,0 +1,35 @@
+.header {
+    position: relative;
+    color: #FFFFFF;
+
+    &__inner {
+
+        padding: 2em;
+        background: url(../img/header/maincat.png) center center/cover no-repeat;
+        max-width: 100%;
+        z-index: 2;
+    }
+        &::after {
+            content: '';
+            position: absolute;
+            background: rgba(31, 32, 33, 0.79);
+            height: 100%;
+            width: 100%;
+            top: 0;
+            left: 0;
+            z-index: -1;
+        }
+    &__top {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: inherit;
+        margin-bottom: 2em;
+    }
+    &__bottom {
+
+        font-size: 1.8rem;
+        font-weight: 700;
+    }
+}

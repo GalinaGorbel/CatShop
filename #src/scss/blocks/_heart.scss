@@ -1,0 +1,12 @@
+.heart {
+    position: absolute;
+
+    &__wrap {
+        position: relative;
+        z-index: 3;
+    }
+    &_main {
+        top: 6%;
+        right: 9%;
+    } 
+}

@@ -1,0 +1,21 @@
+.link {
+    display: block;
+    padding: .5em;
+    text-decoration: none;
+    color: inherit;
+    &_telephone {
+        font-size: 1.335rem;
+        padding: 0 0 3px;
+        font-weight: 700;
+    }
+    &:hover {
+        color: lightgray;
+    }
+    &_drop {
+        padding-top: 0;
+        padding-bottom: 0;
+        &:hover {
+            color: inherit;
+        }
+    }
+}

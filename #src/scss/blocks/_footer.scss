@@ -1,0 +1,30 @@
+.footer {
+    color: #FFFFFF;
+    user-select: none;
+    &__inner {
+        display: flex;
+        flex-wrap: wrap;
+        background-color: #1F2021;
+        padding: 2em;
+        margin-bottom: 6.34em;
+    }
+    &__left {
+        flex: 51%;
+        &-title {
+            /* font-size: 2.67rem; */
+            font-size: 2.4rem;
+            font-weight: 700;
+            margin-bottom: 0.541em;
+        }
+        &-subTitle {
+            font-size: 1rem;
+            margin-bottom: 1em;
+        }
+    }
+    &__right {
+        display: flex;
+        flex: 49%;
+        margin-right: 0;
+        flex-wrap: wrap;
+    }
+}

@@ -1,0 +1,19 @@
+.dropmenu {
+    cursor: pointer;
+    position: relative;
+    list-style: none;
+
+    &__list {
+        display: inline-flex;
+        align-items: center;
+        margin-right: 1em;
+        margin-bottom: .5em;
+        a {
+            margin-right: 1.06em;
+        }
+            &:hover > .arrow {
+                transform: rotate(-45deg);
+            }
+    }
+}
+

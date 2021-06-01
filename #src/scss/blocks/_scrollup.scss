@@ -1,0 +1,14 @@
+.scrollup {
+    position: absolute;
+    right: 0;
+    bottom: 5%;
+    display: none;
+    &__wrap {
+        position: relative;
+        text-align: center;
+        margin-right: 10px;
+        width: 59px;
+        height: 59px;
+        background: #6EBBD3;
+    }
+}

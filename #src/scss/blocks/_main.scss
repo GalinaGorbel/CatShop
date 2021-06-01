@@ -1,0 +1,27 @@
+.main {
+position: relative;
+    &__inner {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 2.06em 0 4.61em;
+    }
+    &__top {
+        display: flex;
+        margin-bottom: 2.11em;
+    }
+    &__top-title {
+        font-weight: 700;
+        padding-right: 2.67em;
+    }
+
+    &__center {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-left: -1.17em;
+    }
+    &__button {
+        align-self: center;
+    }
+}

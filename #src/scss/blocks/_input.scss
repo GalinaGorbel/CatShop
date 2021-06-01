@@ -1,0 +1,21 @@
+.input {
+    font-size: 1rem; //14px
+    color: #FFFFFF;
+    height: 4.643em;
+    flex: 1;
+    border: none;
+    border-radius: 0.714em;
+    
+    &_footer {
+        color: #000000;
+       margin-bottom: 1.714em;
+       width: 100%;
+       padding-left: 2.357em;
+    }
+    &_main {
+        font-size: .89rem;
+    }
+        &:focus {
+            outline: none;
+        }
+}

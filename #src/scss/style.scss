@@ -1,0 +1,44 @@
+@import 'base/variables';
+@import 'base/mixins';
+@import 'fonts';
+
+* {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root {
+    font-size: 0.875em; //14px
+}
+
+.container {
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+@import 'blocks/media';
+@import 'blocks/header';
+@import 'blocks/main';
+@import 'blocks/card';
+@import 'blocks/footer';
+@import 'blocks/logo';
+@import 'blocks/menu';
+@import 'blocks/dropmenu';
+@import 'blocks/link';
+@import 'blocks/telephone';
+@import 'blocks/input';
+@import 'blocks/button';
+@import 'blocks/checkbox';
+@import 'blocks/arrow';
+@import 'blocks/form';
+@import 'blocks/burger';
+@import 'blocks/discount';
+@import 'blocks/heart';
+@import 'blocks/notif';
+@import 'blocks/scrollup';

@@ -1,0 +1,174 @@
+@media (min-width: 375px) {
+    .footer {
+        &__left {
+            margin-right: 1em;
+        }  
+    }
+    .main__top {
+        justify-content: flex-end;
+    }
+}
+
+@media (min-width: 425px) {
+    .card {
+        &__content {
+            padding: 1.611em 1.833em 1.611em 1.611em;
+        }
+    }
+    .dropmenu__list {
+        margin-right: 2em;
+    }
+}
+
+
+
+@media (min-width: 768px) {
+    .burger-menu {
+        display: none;
+    }
+    .menu {
+        display: flex;
+    }
+    .header {
+        &__inner {
+            padding: 2.22em 3.5em 3.67em;
+        }
+        &__top {
+            flex-direction: row;
+        }
+    }
+    .logo {
+
+        &_header {
+            margin-right: 2em;
+        }
+        img {
+            max-width: 90%;
+        }
+    }
+    .main {
+        &__top {
+            justify-content: flex-start;
+        }
+    }
+    
+    .footer {
+        &__inner {
+            flex-wrap: nowrap;
+            padding: 2.22em 3.5em 3.67em;
+        }  
+        &__left {
+            margin-right: 6em;
+        }
+    }
+    .input {
+        &_footer {
+            width: 21.43em;
+            margin: 0 0 1.714em 0;
+        }
+    }
+    .card {
+        flex: 50%;
+        justify-content: 0;
+        &__subTitle, &__qty, &__age {
+            font-size: .86rem;
+        }
+    }
+    .dropmenu__list {
+        margin-right: 3.93em;
+    }
+
+}
+
+@media (min-width: 1024px) {
+    .logo {
+        &_header {
+            margin-right: 6.67em;
+        }
+        img {
+            max-width: 100%;
+        }
+    }
+    .footer {
+        &__inner {
+            padding: 4.611em 4.45em 5.111em 4.39em;
+        }
+
+        &__right {
+            flex-wrap: nowrap;
+            flex: 65%;
+        }
+        &__left {
+            margin-right: 5em;
+        }
+    }
+    .input {
+        &_footer {
+            width: 21.43em;
+            margin: 0 1.142em 1.714em 0;
+        }
+    }
+    .form {
+        flex: 1;
+    }
+    .button_main {
+        width: 27.143em;
+    }
+    .card {
+        flex: 33%;
+    }
+
+    .link {
+        &_header {
+            font-size: 1.143rem;
+        }
+    }
+}
+
+
+@media (min-width: 1200px) {  //Применяется только к экранам шириной 1200 пикселов и больше, переопределяя оригинальное значение
+    :root {
+        font-size: 1.125em; //18
+    }
+    .header {
+        &__inner {
+            padding: 2.22em 7.17em 3.67em;
+        }
+    }    
+    .footer {
+        &__left-title {
+            font-size: 2.67rem;
+        }
+        &__left-subTitle {
+            font-size: 1.56rem;
+            margin-bottom: 0;
+        }
+        &__left {
+            margin-right: 4.834em;
+        }
+    }
+    .input {
+        &_footer {
+            font-size: .78rem;
+            width: 25em;
+            height: 4.63em;
+        }
+    }
+    .button_footer {
+        font-size: .78rem;
+        height: 4.63em;
+    }
+    .card {
+        img {
+            width: 100%;
+        }
+        &__subTitle, &__qty, &__age {
+            font-size: .78rem;
+        }
+    }
+    .link {
+        &_header {
+            font-size: 1rem;
+        }
+    }
+}
