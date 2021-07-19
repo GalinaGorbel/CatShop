@@ -1,6 +1,7 @@
 "use strict"
 @@include('card.js');
 @@include('scrollup.js');
+@@include('burger.js');
 
 const obj = [{
     title: 'Кот полосатый',
